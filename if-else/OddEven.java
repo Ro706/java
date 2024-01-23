@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//Write a C program to check whether the number is even or odd
 public class OddEven{
 	public static void main(String[] args){
 		Scanner myObj = new Scanner(System.in);
