@@ -40,4 +40,17 @@ non primitive data type
 String class => this is immutable(in java) this is also known as immutable classes
 any this under double quotes that will trieted as string constant 
 
+String  a = "Hello world!";
+a.length() -> For getting the length of the given string
+inside RAM
+________________________
+|H e l l o  w o r l d !|
+------------------------
+ 0 1 2 3 4 5 6 7 8 9 10
+
+String city = "bokaro";
+int citylen = city.length(); --> length of the string
+int index = city.indexOf('o'); --> index of the char
+int lindex = city.lastIndexOf('o'); -->index of the char
+char ch1 = city.charAt(4);  --> print char form the string as per give string.
 
