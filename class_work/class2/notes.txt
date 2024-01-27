@@ -1,0 +1,27 @@
+It is use to specify the type of data .
+java have 8 primitive datatype
+1) integral datatype
+	a)byte ->8bit (1 byte)[-128 to 127]
+	b)short ->2byte[-32768 to 32767]
+	c)int ->4byte[-2147483 to 2147482]
+	d)long ->8byte[-9223372036854775803 to 9223372036854775802]
+
+Default data type 
+For java the default datatype is -> int (or integer)
+whenever you use Long data type in java add "L" at last of the number;
+
+long lg = 237107310273017;
+          <---------------- 
+RAM will stored the value temp as integer
+if long lg = 237107310273017L;
+             <---------------
+compilier store this number as long
+2)floating point
+	a) float - 4byte(32 bit)
+	b) double - 8byte(64 bit)
+default datatype is -> double
+float pi =3.14;
+          <---
+float pi = 3.14f;
+	   <---
+
