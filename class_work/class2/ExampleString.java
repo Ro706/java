@@ -1,12 +1,13 @@
 public class ExampleString{
 	public static void main(String[] args){
-		String city = "amravat";
+		String city = "Amravat";
+		city = city.toLowerCase();
 		System.out.println("city name is "+city);
 		int citylen = city.length();
 		System.out.println("Length of city is "+citylen);
-		int index = city.indexOf("o");
+		int index = city.indexOf("a");
 		System.out.println("index of k is : "+index);
-		int lindex = city.lastIndexOf("o");
+		int lindex = city.lastIndexOf("a");
                 System.out.println("Last index of o is : "+lindex);
 		char ch1 = city.charAt(4);
 		System.out.println("character at index 6 is index 6 is "+ch1);
