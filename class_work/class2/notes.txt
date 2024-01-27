@@ -1,3 +1,4 @@
+primitive data => 8type
 It is use to specify the type of data .
 java have 8 primitive datatype
 1) integral datatype
@@ -24,4 +25,19 @@ float pi =3.14;
           <---
 float pi = 3.14f;
 	   <---
+3)char (2byte) ---> it support universal languages (uni-code range)
+any this written under single quote '' that is known as java charactor constant
+ char a = 'a';
+
+4)boolean (1bit) ---> true or false
+	boolean a = true;
+	or 
+	boolean b = false;
+
+====================================================================================================
+
+non primitive data type
+String class => this is immutable(in java) this is also known as immutable classes
+any this under double quotes that will trieted as string constant 
+
 
