@@ -1,13 +1,13 @@
 # Java Programming Language
 
-Java is a high-level, class-based, object-oriented programming language[^1^][2]. It was originally developed by James Gosling at Sun Microsystems and released in 1995[^1^][2].
+Java is a high-level, class-based, object-oriented programming language. It was originally developed by James Gosling at Sun Microsystems and released in 1995.
 
 ## Key Features of Java
 
-- **Write Once, Run Anywhere (WORA)**: Java applications are typically compiled to bytecode that can run on any Java Virtual Machine (JVM) regardless of the underlying computer architecture[^1^][2].
-- **Object-Oriented**: Java is an object-oriented language which provides a clear structure to programs and allows code to be reused, reducing development costs[^1^][2].
-- **Platform Independent**: Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into platform-specific machine, rather into platform-independent byte code. This byte code is distributed over the web and interpreted by the JVM[^1^][2].
-- **Secure**: Java is secure because it supports the concept of byte code and exception handling[^1^][2].
+- **Write Once, Run Anywhere (WORA)**: Java applications are typically compiled to bytecode that can run on any Java Virtual Machine (JVM) regardless of the underlying computer architecture.
+- **Object-Oriented**: Java is an object-oriented language which provides a clear structure to programs and allows code to be reused, reducing development costs.
+- **Platform Independent**: Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into platform-specific machine, rather into platform-independent byte code. This byte code is distributed over the web and interpreted by the JVM.
+- **Secure**: Java is secure because it supports the concept of byte code and exception handling.
 
 ## Example of Java Code
 
@@ -60,4 +60,19 @@ char g = 'a';
 boolean h = true;
 
 String i = "Hello, World!";
+```
+
+# Loops in Java
+
+Loops are used in programming to repeat a specific block of code until a certain condition is met. In Java, we have three types of loops: `for`, `while`, and `do-while`.
+
+## For Loop
+
+A `for` loop is a control flow statement that allows code to be executed repeatedly. A `for` loop has three parts: initialization, condition, and increment/decrement.
+Here's the syntax of a `for` loop:
+
+```java
+for (initialization; condition; increment/decrement) {
+    // code block to be executed
+}
 
