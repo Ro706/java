@@ -75,4 +75,30 @@ Here's the syntax of a `for` loop:
 for (initialization; condition; increment/decrement) {
     // code block to be executed
 }
+```
+```
+public class WhileLoopExample {
+    public static void main(String[] args) {
+        int i = 0; // Initialize a variable
+
+        // The while loop will run as long as 'i' is less than 5
+        while (i < 5) {
+            System.out.println(i); // Print the value of 'i'
+            i++; // Increment 'i' by 1
+        }
+    }
+}
+```
+# Example: Using a While Loop in Java
+
+In this example, we demonstrate how to use a `while` loop in Java. The loop will continue executing the code block inside it as long as a specified condition remains true.
+
+1. **Initialization**: We start with `i = 0`.
+2. **Condition**: The loop continues as long as `i` is less than 5.
+3. **Action**: The value of `i` is printed, and then `i` is incremented by 1 in each iteration.
+4. **Termination**: The loop stops when `i` becomes equal to or greater than 5.
+
+Remember to increase the variable used in the condition (in this case, `i`) within the loop, otherwise, the loop will never end! 😊
+
+Feel free to modify the condition and the code block inside the loop to suit your specific requirements! If you have any more questions, feel free to ask! 🚀
 
